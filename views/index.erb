@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot Concept</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="/script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form action="/" method="post">
+      <input type="text" name="query">
+    </form>
+
+    <div class="response -hidden">
+      <p class="reply"></p>
+      <a class="bad-response" href="#">Bad response?</a>
+
+      <div class="re-train -hidden">
+        <p>What did you expect?</p>
+        <ul>
+          <li><a href="#" data-category="greeting">I was just saying hello</a></li>
+          <li><a href="#" data-category="name">Name</a></li>
+          <li><a href="#" data-category="location">Location</a></li>
+          <li><a href="#" data-category="age">Age</a></li>
+          <li><a href="#" data-category="mood">Mood</a></li>
+          <li><a href="#" data-category="no_response">No response</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

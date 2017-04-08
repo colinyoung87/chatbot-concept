@@ -1,0 +1,54 @@
+body, html {
+  height: 100vh;
+  padding: 0; margin: 0;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  posiiton: relative;
+}
+
+.-hidden {
+  display: none;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.4em;
+  outline-color: orange;
+}
+
+.response {
+  font-size: 1em;
+  position: relative;
+}
+
+.response .reply {
+  padding-right: 100px;
+}
+
+.response .bad-response {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.re-train {
+  border-top: 1px solid #ccc;
+  font-size: .8em;
+  line-height: 1.4em;
+}
